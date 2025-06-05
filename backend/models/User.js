@@ -8,7 +8,7 @@ const userSchema = new mongoose.Schema(
     username: { type: String, required: true },
     authSource: { type: String, default: 'pi' },
     role: { type: String, default: 'user' },
-    piCredits: { type: Number, default: 0 }, // ✅ Add this line
+    piCredits: { type: Number, default: 0 }, // if used
   },
   { timestamps: true }
 );
