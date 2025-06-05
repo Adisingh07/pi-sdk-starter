@@ -19,7 +19,7 @@ A minimal React frontend for integrating Pi Network login, payments, and rewarde
 ## 🚀 Setup
 
 ```bash
-git clone https://github.com/your-username/pi-sdk-frontend.git
+git clone https://github.com/cross555/pi-sdk-frontend.git
 cd pi-sdk-frontend
 npm install
 npm start
