@@ -38,7 +38,7 @@ A minimal backend template for integrating Pi Network login, payments, and rewar
 
 ## 📦 Setup
 ```bash
-git clone https://github.com/xCross/pi-sdk-backend.git
+git clone https://github.com/cross555/pi-sdk-backend.git
 cd pi-sdk-backend
 npm install
 cp .env.example .env
