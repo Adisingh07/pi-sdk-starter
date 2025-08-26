@@ -1,6 +1,6 @@
 import express from 'express';
 import rateLimit from 'express-rate-limit';
-import { piLogin, getProfile, updateProfile } from '../controllers/authController.js';
+import { piLogin, } from '../controllers/authController.js';
 import { protect } from '../middlewares/authMiddleware.js';
 
 const router = express.Router();
@@ -19,8 +19,7 @@ router.get('/', (req, res) => {
 
 // 🔐 Pi Auth routes
 router.post('/pi-login', loginLimiter, piLogin);
-router.get('/profile', protect, getProfile);
-router.patch('/update-profile', protect, updateProfile);
+
 
 
 export default router;
